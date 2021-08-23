@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Festival</title>
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <h1>Rock & Luchas y Tacos</h1>
+
+            <nav class="navegacion-principal">
+                <a href="#lineup">Line UP</a>
+                <a href="#galeria">Galería</a>
+                <a href="#boleto">Boletos</a>
+            </nav>
+        </div>
+    </header>
+    <div class="video">
+        <div class="overlay">
+            <div class="contenedor contenido-video">
+                <h2>
+                    Festival de Rock & Luchas y Tacos <br>
+                    <span>Diciembre 2021 CDMX, México</span>
+                </h2>
+            </div>
+
+        </div>
+        <video controls autoplay muted loop>
+            <source src="video/concierto.mp4" type="video/mp4">
+            <source src="video/concierto.mp4" type="video/mp4">
+            <source src="video/concierto.webm" type="video/webm">
+        </video>
+    </div>
+    <div class="sobre-festival contenedor">
+        <div class="imagen">
+            <img src="build/img/imagen_vocalista.jpg" alt="vocalista">
+
+        </div>
+        <div class="contenido-festival">
+            <h2>Festival de Rock & Luchas y Tacos</h2>
+            <p class="fecha">Diciembre 2021 CDMX, México</p>
+            <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Praesentium eius deleniti exercitationem voluptatibus perferendis corporis distinctio! 
+                Consequuntur quas quo alias unde repellat porro cum, odit nam in fuga laborum repudiandae.</p>
+
+        </div>
+    </div>
+
+    <section id="lineup" class="lineup">
+        <h3>Line Up</h3>
+        <p class="dia">Viernes 10</p>
+        <div class="escenarios-contenedor contenedor">
+            <div class="escenario rock bg-amarillo">
+                <p class="nombre-escenario">Escenario Rock</p>
+                <ul class="calendario">
+                    <li> 23:00 | <span>Molotov</span></li>
+                    <li> 21:00 | <span>Muse</span></li>
+                    <li> 20:00 | <span>Zoe</span></li>
+                    <li> 19:00 | <span>Camilo VII</span></li>
+                    <li> 18:00 | <span>Korn</span></li>
+                    <li> 17:00 | <span>30 Seconds to Mars</span></li>
+                </ul>
+
+            </div>
+
+            <div class="escenario edm bg-verde">
+                <p class="nombre-escenario">Escenario Rock & Luchas</p>
+                <ul class="calendario">
+                    <li> 22:00 | <span>Lost Acapulco</span></li>
+                    <li> 21:00 | <span>DLD</span></li>
+                    <li> 20:00 | <span>Sr. Bikini</span></li>
+                    <li> 19:00 | <span>La Cuca</span></li>
+                    <li> 18:00 | <span>Fenomeno Fuzz</span></li>
+                    <li> 17:00 | <span>Salon Victoria</span></li>
+                </ul>
+                
+            </div>
+        </div>
+        <p class="dia">Sabado 11</p>
+        <div class="escenarios-contenedor contenedor">
+            <div class="escenario rock bg-verde">
+                <p class="nombre-escenario">Escenario Rock</p>
+                <ul class="calendario">
+                    <li> 23:00 | <span>Marshmello/span></li>
+                    <li> 21:00 | <span>Portishead</span></li>
+                    <li> 20:00 | <span>The Strokes</span></li>
+                    <li> 19:00 | <span>Café Tacvba</span></li>
+                    <li> 18:00 | <span>Natalia Lafourcade</span></li>
+                    <li> 17:00 | <span>Hello Seahorse!</span></li>
+                </ul>
+
+            </div>
+
+            <div class="escenario edm bg-amarillo">
+                <p class="nombre-escenario">Escenario Rock & Luchas</p>
+                <ul class="calendario">
+                    <li> 22:00 | <span>Plastilina Mosh</span></li>
+                    <li> 21:00 | <span>Los Esquizitos</span></li>
+                    <li> 20:00 | <span>La Lupita</span></li>
+                    <li> 19:00 | <span>Los Elasticos</span></li>
+                    <li> 18:00 | <span>Fenomeno Fuzz</span></li>
+                    <li> 17:00 | <span>The Cavernarios</span></li>
+                </ul>
+                
+            </div>
+        </div>        
+    </section>
+
+    <section id="galeria" class="galeria contenedor">
+        <h3> Galería</h3>
+
+        <ul class="galeria-imagenes"></ul>
+
+    </section>
+
+    <section id="boleto" class="boletos bg-verde">
+        <h3>Boletos</h3>
+        <div class="contenedor-boletos contenedor">
+            <div class="basico plan">
+                <p>Pase 1 Día</p>
+                
+                <table class="pase">
+                    <thead>
+                        <tr>
+                            <th>
+                                Incluye
+                            </th>
+                        </tr>
+
+                    </thead>
+                    
+                    <tbody>
+                        <tr>
+                            <td>
+                               Acceso a todos los escenarios
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Vaso conmemorativo y llavero
+                            </td>
+                        </tr>
+
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td>$750</td>
+                        </tr>
+
+                    </tfoot>
+                </table>
+
+            </div>
+            <div class="premium plan">
+                <p>Pase 2 Días</p>
+                                
+                <table class="pase">
+                    <thead>
+                        <tr>
+                            <th>
+                                Incluye
+                            </th>
+                        </tr>
+
+                    </thead>
+                    
+                    <tbody>
+                        <tr>
+                            <td>
+                               Acceso a todos los escenarios
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Vaso conmemorativo
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Gorra del evento
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Playera</td>
+                        </tr>
+
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td>$1450</td>
+                        </tr>
+
+                    </tfoot>
+                </table>
+
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>Festival de Rock & Luchas. Todos los derechos reservados 2021.</p>
+    </footer>
+
+    <script src="build/js/bundle.js"></script>
+</body>
+</html>
